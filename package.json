@@ -1,4 +1,11 @@
 {
+  "private": true,
+  "scripts": {
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:lint": "npm --prefix frontend run lint",
+    "frontend:preview": "npm --prefix frontend run preview"
+  },
   "devDependencies": {
     "eslint": "^10.0.3",
     "eslint-config-prettier": "^10.1.8",
